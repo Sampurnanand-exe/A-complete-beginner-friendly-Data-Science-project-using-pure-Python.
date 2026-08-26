@@ -1,0 +1,484 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@email.com",
+      "profile": {
+        "age": 28,
+        "location": "New York, USA",
+        "occupation": "Software Engineer",
+        "bio": "Tech enthusiast and coffee lover"
+      },
+      "friends": [2, 3, 5, 8],
+      "interests": ["programming", "photography", "travel"],
+      "groups": ["tech_meetup", "photography_club"],
+      "last_active": "2026-08-26T08:30:00Z",
+      "account_created": "2020-03-15T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@email.com",
+      "profile": {
+        "age": 30,
+        "location": "Boston, USA",
+        "occupation": "Data Scientist",
+        "bio": "Data nerd and marathon runner"
+      },
+      "friends": [1, 4, 5, 7, 9],
+      "interests": ["data_analysis", "running", "reading"],
+      "groups": ["data_science", "running_club"],
+      "last_active": "2026-08-26T10:15:00Z",
+      "account_created": "2019-11-20T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@email.com",
+      "profile": {
+        "age": 27,
+        "location": "Chicago, USA",
+        "occupation": "UX Designer",
+        "bio": "Designing beautiful experiences"
+      },
+      "friends": [1, 5, 6, 10],
+      "interests": ["design", "art", "music"],
+      "groups": ["design_guild", "music_lovers"],
+      "last_active": "2026-08-25T22:45:00Z",
+      "account_created": "2020-07-01T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Diana Prince",
+      "email": "diana.prince@email.com",
+      "profile": {
+        "age": 32,
+        "location": "Los Angeles, USA",
+        "occupation": "Marketing Director",
+        "bio": "Creative marketing professional"
+      },
+      "friends": [2, 7, 11, 12],
+      "interests": ["marketing", "fashion", "travel"],
+      "groups": ["marketing_pros", "fashion_week"],
+      "last_active": "2026-08-26T09:00:00Z",
+      "account_created": "2018-05-10T11:20:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Eve Wilson",
+      "email": "eve.wilson@email.com",
+      "profile": {
+        "age": 26,
+        "location": "Seattle, USA",
+        "occupation": "Full Stack Developer",
+        "bio": "Building the future with code"
+      },
+      "friends": [2, 3, 8, 13],
+      "interests": ["coding", "gaming", "hiking"],
+      "groups": ["developers_hub", "outdoor_adventures"],
+      "last_active": "2026-08-25T20:30:00Z",
+      "account_created": "2021-01-15T13:45:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Frank Davis",
+      "email": "frank.davis@email.com",
+      "profile": {
+        "age": 35,
+        "location": "Denver, USA",
+        "occupation": "Project Manager",
+        "bio": "Leading teams to success"
+      },
+      "friends": [3, 10, 14],
+      "interests": ["management", "sports", "cooking"],
+      "groups": ["project_managers", "sports_fans"],
+      "last_active": "2026-08-26T07:45:00Z",
+      "account_created": "2017-09-01T08:00:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Grace Taylor",
+      "email": "grace.taylor@email.com",
+      "profile": {
+        "age": 29,
+        "location": "Miami, USA",
+        "occupation": "Graphic Designer",
+        "bio": "Visual storyteller"
+      },
+      "friends": [2, 4, 15],
+      "interests": ["design", "illustration", "photography"],
+      "groups": ["creative_minds", "visual_arts"],
+      "last_active": "2026-08-26T11:00:00Z",
+      "account_created": "2020-04-20T16:30:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Henry Wilson",
+      "email": "henry.wilson@email.com",
+      "profile": {
+        "age": 31,
+        "location": "Austin, USA",
+        "occupation": "DevOps Engineer",
+        "bio": "Automating everything"
+      },
+      "friends": [1, 5, 16],
+      "interests": ["devops", "cloud", "automation"],
+      "groups": ["cloud_engineers", "tech_talks"],
+      "last_active": "2026-08-25T18:20:00Z",
+      "account_created": "2019-08-12T12:00:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Ivy Johnson",
+      "email": "ivy.johnson@email.com",
+      "profile": {
+        "age": 33,
+        "location": "Portland, USA",
+        "occupation": "Product Manager",
+        "bio": "Building products people love"
+      },
+      "friends": [2, 17],
+      "interests": ["product_management", "entrepreneurship", "coffee"],
+      "groups": ["product_folk", "startup_community"],
+      "last_active": "2026-08-26T06:30:00Z",
+      "account_created": "2018-10-05T14:00:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Jack Miller",
+      "email": "jack.miller@email.com",
+      "profile": {
+        "age": 28,
+        "location": "San Francisco, USA",
+        "occupation": "Mobile Developer",
+        "bio": "iOS and Android specialist"
+      },
+      "friends": [3, 6, 18],
+      "interests": ["mobile_development", "tech", "gaming"],
+      "groups": ["mobile_devs", "game_developers"],
+      "last_active": "2026-08-26T09:45:00Z",
+      "account_created": "2020-06-10T11:30:00Z"
+    },
+    {
+      "id": 11,
+      "name": "Karen Martinez",
+      "email": "karen.martinez@email.com",
+      "profile": {
+        "age": 34,
+        "location": "Dallas, USA",
+        "occupation": "HR Manager",
+        "bio": "People person and culture builder"
+      },
+      "friends": [4, 19],
+      "interests": ["human_resources", "psychology", "volunteering"],
+      "groups": ["hr_professionals", "community_leaders"],
+      "last_active": "2026-08-25T19:00:00Z",
+      "account_created": "2018-12-01T09:00:00Z"
+    },
+    {
+      "id": 12,
+      "name": "Leo Thompson",
+      "email": "leo.thompson@email.com",
+      "profile": {
+        "age": 36,
+        "location": "San Diego, USA",
+        "occupation": "Architect",
+        "bio": "Designing spaces for people"
+      },
+      "friends": [4, 20],
+      "interests": ["architecture", "urban_planning", "photography"],
+      "groups": ["architects_circle", "city_design"],
+      "last_active": "2026-08-26T12:15:00Z",
+      "account_created": "2017-07-25T13:30:00Z"
+    },
+    {
+      "id": 13,
+      "name": "Mia Garcia",
+      "email": "mia.garcia@email.com",
+      "profile": {
+        "age": 25,
+        "location": "Phoenix, USA",
+        "occupation": "Data Analyst",
+        "bio": "Finding patterns in everything"
+      },
+      "friends": [5, 21],
+      "interests": ["data_analytics", "statistics", "music"],
+      "groups": ["data_analysts", "jazz_fans"],
+      "last_active": "2026-08-26T08:00:00Z",
+      "account_created": "2021-03-20T10:00:00Z"
+    },
+    {
+      "id": 14,
+      "name": "Noah Anderson",
+      "email": "noah.anderson@email.com",
+      "profile": {
+        "age": 29,
+        "location": "Philadelphia, USA",
+        "occupation": "Financial Analyst",
+        "bio": "Numbers are my language"
+      },
+      "friends": [6, 22],
+      "interests": ["finance", "investing", "reading"],
+      "groups": ["finance_pros", "book_club"],
+      "last_active": "2026-08-25T21:30:00Z",
+      "account_created": "2019-09-15T15:45:00Z"
+    },
+    {
+      "id": 15,
+      "name": "Olivia White",
+      "email": "olivia.white@email.com",
+      "profile": {
+        "age": 27,
+        "location": "Atlanta, USA",
+        "occupation": "Content Creator",
+        "bio": "Creating content that inspires"
+      },
+      "friends": [7, 23],
+      "interests": ["content_creation", "social_media", "writing"],
+      "groups": ["content_creators", "writers_circle"],
+      "last_active": "2026-08-26T10:30:00Z",
+      "account_created": "2020-08-01T08:00:00Z"
+    },
+    {
+      "id": 16,
+      "name": "Peter Robinson",
+      "email": "peter.robinson@email.com",
+      "profile": {
+        "age": 31,
+        "location": "Houston, USA",
+        "occupation": "Systems Administrator",
+        "bio": "Keeping the systems running"
+      },
+      "friends": [8, 24],
+      "interests": ["system_administration", "networking", "cybersecurity"],
+      "groups": ["sysadmins", "security_pros"],
+      "last_active": "2026-08-26T07:00:00Z",
+      "account_created": "2019-04-15T10:00:00Z"
+    },
+    {
+      "id": 17,
+      "name": "Quinn Baker",
+      "email": "quinn.baker@email.com",
+      "profile": {
+        "age": 30,
+        "location": "Nashville, USA",
+        "occupation": "Musician",
+        "bio": "Making music that matters"
+      },
+      "friends": [9, 25],
+      "interests": ["music", "composition", "guitar"],
+      "groups": ["musicians_united", "songwriters"],
+      "last_active": "2026-08-25T23:00:00Z",
+      "account_created": "2020-02-28T17:00:00Z"
+    },
+    {
+      "id": 18,
+      "name": "Rachel Green",
+      "email": "rachel.green@email.com",
+      "profile": {
+        "age": 26,
+        "location": "Washington DC, USA",
+        "occupation": "Journalist",
+        "bio": "Storytelling with purpose"
+      },
+      "friends": [10, 26],
+      "interests": ["journalism", "writing", "politics"],
+      "groups": ["journalists", "writers_network"],
+      "last_active": "2026-08-26T11:45:00Z",
+      "account_created": "2021-06-01T09:00:00Z"
+    },
+    {
+      "id": 19,
+      "name": "Steve Murphy",
+      "email": "steve.murphy@email.com",
+      "profile": {
+        "age": 38,
+        "location": "Boston, USA",
+        "occupation": "Lawyer",
+        "bio": "Justice and advocacy"
+      },
+      "friends": [11, 27],
+      "interests": ["law", "justice", "moot_court"],
+      "groups": ["legal_professionals", "advocacy_group"],
+      "last_active": "2026-08-25T17:30:00Z",
+      "account_created": "2016-10-10T14:00:00Z"
+    },
+    {
+      "id": 20,
+      "name": "Tina Turner",
+      "email": "tina.turner@email.com",
+      "profile": {
+        "age": 29,
+        "location": "Las Vegas, USA",
+        "occupation": "Event Planner",
+        "bio": "Creating unforgettable experiences"
+      },
+      "friends": [12, 28],
+      "interests": ["event_planning", "design", "hospitality"],
+      "groups": ["event_planners", "hospitality_network"],
+      "last_active": "2026-08-26T08:45:00Z",
+      "account_created": "2020-05-15T12:30:00Z"
+    },
+    {
+      "id": 21,
+      "name": "Uma Singh",
+      "email": "uma.singh@email.com",
+      "profile": {
+        "age": 32,
+        "location": "New York, USA",
+        "occupation": "Business Analyst",
+        "bio": "Bridging business and technology"
+      },
+      "friends": [13, 29],
+      "interests": ["business_analytics", "consulting", "travel"],
+      "groups": ["business_analysts", "consultants_network"],
+      "last_active": "2026-08-26T09:15:00Z",
+      "account_created": "2019-01-20T11:00:00Z"
+    },
+    {
+      "id": 22,
+      "name": "Victor Kim",
+      "email": "victor.kim@email.com",
+      "profile": {
+        "age": 34,
+        "location": "Los Angeles, USA",
+        "occupation": "Real Estate Agent",
+        "bio": "Helping people find their dream home"
+      },
+      "friends": [14, 30],
+      "interests": ["real_estate", "property", "photography"],
+      "groups": ["real_estate_pros", "property_investors"],
+      "last_active": "2026-08-25T19:45:00Z",
+      "account_created": "2018-06-25T10:00:00Z"
+    },
+    {
+      "id": 23,
+      "name": "Wendy Park",
+      "email": "wendy.park@email.com",
+      "profile": {
+        "age": 28,
+        "location": "Chicago, USA",
+        "occupation": "Nutritionist",
+        "bio": "Healthy living advocate"
+      },
+      "friends": [15, 31],
+      "interests": ["nutrition", "health", "fitness"],
+      "groups": ["health_advocates", "fitness_freaks"],
+      "last_active": "2026-08-26T07:30:00Z",
+      "account_created": "2021-02-10T16:00:00Z"
+    },
+    {
+      "id": 24,
+      "name": "Xavier Chen",
+      "email": "xavier.chen@email.com",
+      "profile": {
+        "age": 33,
+        "location": "San Francisco, USA",
+        "occupation": "Machine Learning Engineer",
+        "bio": "Making AI accessible to everyone"
+      },
+      "friends": [16, 32],
+      "interests": ["machine_learning", "ai", "python"],
+      "groups": ["ml_engineers", "ai_researchers"],
+      "last_active": "2026-08-26T12:00:00Z",
+      "account_created": "2019-12-01T08:00:00Z"
+    },
+    {
+      "id": 25,
+      "name": "Yara Ibrahim",
+      "email": "yara.ibrahim@email.com",
+      "profile": {
+        "age": 27,
+        "location": "Miami, USA",
+        "occupation": "Fashion Designer",
+        "bio": "Bringing fashion to life"
+      },
+      "friends": [17, 33],
+      "interests": ["fashion", "design", "art"],
+      "groups": ["fashion_designers", "creative_brands"],
+      "last_active": "2026-08-26T10:00:00Z",
+      "account_created": "2021-04-05T13:00:00Z"
+    },
+    {
+      "id": 26,
+      "name": "Zachary Lee",
+      "email": "zachary.lee@email.com",
+      "profile": {
+        "age": 31,
+        "location": "Seattle, USA",
+        "occupation": "UX Researcher",
+        "bio": "Understanding users deeply"
+      },
+      "friends": [18, 34],
+      "interests": ["ux_research", "design", "psychology"],
+      "groups": ["ux_professionals", "design_researchers"],
+      "last_active": "2026-08-26T08:30:00Z",
+      "account_created": "2020-09-15T09:00:00Z"
+    },
+    {
+      "id": 27,
+      "name": "Amy Foster",
+      "email": "amy.foster@email.com",
+      "profile": {
+        "age": 36,
+        "location": "Denver, USA",
+        "occupation": "Entrepreneur",
+        "bio": "Building the next big thing"
+      },
+      "friends": [19, 35],
+      "interests": ["entrepreneurship", "startups", "mentoring"],
+      "groups": ["founders_network", "startup_mentors"],
+      "last_active": "2026-08-25T22:15:00Z",
+      "account_created": "2017-04-01T14:00:00Z"
+    },
+    {
+      "id": 28,
+      "name": "Brian Cox",
+      "email": "brian.cox@email.com",
+      "profile": {
+        "age": 29,
+        "location": "Austin, USA",
+        "occupation": "Graphic Designer",
+        "bio": "Visual storytelling expert"
+      },
+      "friends": [20, 36],
+      "interests": ["graphic_design", "illustration", "branding"],
+      "groups": ["design_community", "brand_creators"],
+      "last_active": "2026-08-26T09:30:00Z",
+      "account_created": "2020-07-20T11:30:00Z"
+    },
+    {
+      "id": 29,
+      "name": "Clara Hughes",
+      "email": "clara.hughes@email.com",
+      "profile": {
+        "age": 30,
+        "location": "Portland, USA",
+        "occupation": "Environmental Scientist",
+        "bio": "Protecting our planet"
+      },
+      "friends": [21, 37],
+      "interests": ["environment", "sustainability", "science"],
+      "groups": ["environmentalists", "climate_action"],
+      "last_active": "2026-08-26T06:45:00Z",
+      "account_created": "2019-10-05T10:00:00Z"
+    },
+    {
+      "id": 30,
+      "name": "David Martinez",
+      "email": "david.martinez@email.com",
+      "profile": {
+        "age": 32,
+        "location": "Phoenix, USA",
+        "occupation": "Chef",
+        "bio": "Culinary artist and food lover"
+      },
+      "friends": [22, 38],
+      "interests": ["culinary", "food", "wine"],
+      "groups": ["chefs_network", "food_connoisseurs"],
+      "last_active": "2026-08-25T20:00:00Z",
+      "account_created": "2018-08-15T15:00:00Z"
+    }
+    ]
+}
